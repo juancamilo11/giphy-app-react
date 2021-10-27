@@ -1,8 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { App } from './App';
+import { GiphyApp } from './GiphyApp';
+import './index.css';
 
 ReactDOM.render(
-    <App />,
+    <GiphyApp />,
   document.getElementById('root')
 );
